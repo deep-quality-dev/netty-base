@@ -1,0 +1,29 @@
+{
+  "tcp": {
+    "host": "192.168.0.105",
+    "port": 8228
+  },
+  "socket": {
+    "READER_IDLE_TIME_SECONDS": 10,
+    "WRITER_IDLE_TIME_SECONDS": 0,
+    "ALL_IDLE_TIME_SECONDS": 0
+  },
+  "boss": {
+    "thread": {
+      "count": 2
+    }
+  },
+  "worker": {
+    "thread": {
+      "count": 20
+    }
+  },
+  "so": {
+    "keepAlive": true,
+    "backlog": 100
+  },
+  "client": {
+    "id": "test",
+    "reconnectTimeout": 3
+  }
+}

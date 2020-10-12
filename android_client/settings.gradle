@@ -1,0 +1,2 @@
+include ':app', ':protobuf'
+rootProject.name='android_client'
