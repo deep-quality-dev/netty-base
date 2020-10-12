@@ -63,7 +63,7 @@ public class ServerAuthHandler extends ChannelInboundHandlerAdapter {
 
     @Override
     public void channelRead(ChannelHandlerContext ctx, Object msg) throws Exception {
-        super.channelRead(ctx, msg);
+//        super.channelRead(ctx, msg);
         Message.MessageBase message = (Message.MessageBase) msg;
         String clientId = ctx.channel().id().asLongText();
         System.out.println("[" + clientId + "], clientId = " + message.getClientId() +", message = " + message.getData());

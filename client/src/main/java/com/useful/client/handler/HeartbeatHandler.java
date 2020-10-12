@@ -40,7 +40,7 @@ public class HeartbeatHandler extends ChannelInboundHandlerAdapter {
 
     @Override
     public void channelRead(ChannelHandlerContext ctx, Object msg) throws Exception {
-        super.channelRead(ctx, msg);
+//        super.channelRead(ctx, msg);
 
         final Message.MessageBase message = (Message.MessageBase) msg;
 //        System.out.println("[" + ctx.channel().id().asLongText() + "] clientId = " + message.getClientId() +", message = " + message.getData());

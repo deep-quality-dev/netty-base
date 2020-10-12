@@ -34,7 +34,7 @@ public class LogicHandler extends ChannelInboundHandlerAdapter {
 
     @Override
     public void channelRead(ChannelHandlerContext ctx, Object msg) throws Exception {
-        super.channelRead(ctx, msg);
+//        super.channelRead(ctx, msg);
 
         final Message.MessageBase message = (Message.MessageBase) msg;
 
